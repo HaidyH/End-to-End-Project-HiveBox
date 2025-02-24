@@ -1,0 +1,19 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore Docker files (if using Docker)
+.dockerignore
+docker-compose.override.yml
+
+# Ignore environment variables and secrets
+.env
+.env.local
+.env.*.local
